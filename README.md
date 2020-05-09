@@ -7,6 +7,7 @@
 [Step 3. Test your first Python application](https://www.jetbrains.com/help/pycharm/testing-your-first-python-application.html)
 
 
+
 ### Django in PyCharm
 
 [Step 4. Create and Run your first Django project](https://www.jetbrains.com/help/pycharm/creating-and-running-your-first-django-project.html)
@@ -14,22 +15,18 @@
 [Configure PyCharm for Python/Django](https://medium.com/@srijan.pydev_21998/configure-pycharm-for-python-django-and-introduction-to-django-rest-framework-f9c1a7cb4ba0)
 
 
-Now go to Tools -> Run manage.py Task… Here you can run all the manage.py commands just by typing in their [options]. Run 
+Now go to Tools -> Run manage.py Task… Here you can run all the manage.py commands just by typing in their [options]. Run below command inside manage.py@YourApp.
 
 ```bash
 makemigrations 
 ```
 
-inside manage.py@YourApp.
 
-
-Now run 
+Now run below command to create schema in your SQLite database.
 
 ```bash
 migrate 
-```
-
-to create schema in your SQLite database. 
+``` 
 
 
 Press the play button on the top to start your server. This is same as running below command on terminal: 
@@ -46,12 +43,13 @@ Now, let’s run the app in PyCharm’s Debug Mode by pressing the bug symbol on
 
 
 
+
 ### Django Rest Framework in PyCharm
 
 [Introduction to Django Rest Framework](https://medium.com/@srijan.pydev_21998/configure-pycharm-for-python-django-and-introduction-to-django-rest-framework-f9c1a7cb4ba0)
 
 
-Install Django Rest Framework. Run below command:
+Install Django REST Framework:
 
 ```bash
 pip install django-rest-framework
@@ -182,6 +180,3 @@ makemigrations
 ```bash
 migrate 
 ```
-
-
-
